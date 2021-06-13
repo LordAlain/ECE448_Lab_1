@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Lab_1_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Lab_1_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="158000001fs"></ZoomEndTime>
+      <Cursor1Time time="21800000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="162"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/Lab_1_tb/rst_tb" type="logic">
+      <obj_property name="ElementShortName">rst_tb</obj_property>
+      <obj_property name="ObjectShortName">rst_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/clk_tb" type="logic">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/mode_tb" type="logic">
+      <obj_property name="ElementShortName">mode_tb</obj_property>
+      <obj_property name="ObjectShortName">mode_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/start_tb" type="logic">
+      <obj_property name="ElementShortName">start_tb</obj_property>
+      <obj_property name="ObjectShortName">start_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/a_tb" type="array">
+      <obj_property name="ElementShortName">a_tb[5:0]</obj_property>
+      <obj_property name="ObjectShortName">a_tb[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/b_tb" type="array">
+      <obj_property name="ElementShortName">b_tb[2:0]</obj_property>
+      <obj_property name="ObjectShortName">b_tb[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/y_tb" type="array">
+      <obj_property name="ElementShortName">y_tb[5:0]</obj_property>
+      <obj_property name="ObjectShortName">y_tb[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/expected_y" type="array">
+      <obj_property name="ElementShortName">expected_y[5:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_y[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/z_tb" type="logic">
+      <obj_property name="ElementShortName">z_tb</obj_property>
+      <obj_property name="ObjectShortName">z_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/done_tb" type="logic">
+      <obj_property name="ElementShortName">done_tb</obj_property>
+      <obj_property name="ObjectShortName">done_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/flag_tb" type="logic">
+      <obj_property name="ElementShortName">flag_tb</obj_property>
+      <obj_property name="ObjectShortName">flag_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/error_tb" type="other">
+      <obj_property name="ElementShortName">error_tb</obj_property>
+      <obj_property name="ObjectShortName">error_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/var_tb" type="other">
+      <obj_property name="ElementShortName">var_tb</obj_property>
+      <obj_property name="ObjectShortName">var_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/DUV_DELAY" type="other">
+      <obj_property name="ElementShortName">DUV_DELAY</obj_property>
+      <obj_property name="ObjectShortName">DUV_DELAY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/TEST_INTERVAL" type="other">
+      <obj_property name="ElementShortName">TEST_INTERVAL</obj_property>
+      <obj_property name="ObjectShortName">TEST_INTERVAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/reset_width" type="other">
+      <obj_property name="ElementShortName">reset_width</obj_property>
+      <obj_property name="ObjectShortName">reset_width</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/Prime_List" type="array">
+      <obj_property name="ElementShortName">Prime_List[0:17][5:0]</obj_property>
+      <obj_property name="ObjectShortName">Prime_List[0:17][5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/Div8_List" type="array">
+      <obj_property name="ElementShortName">Div8_List[0:17][5:0]</obj_property>
+      <obj_property name="ObjectShortName">Div8_List[0:17][5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/Div13_List" type="array">
+      <obj_property name="ElementShortName">Div13_List[0:17][5:0]</obj_property>
+      <obj_property name="ObjectShortName">Div13_List[0:17][5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/Triangle_List" type="array">
+      <obj_property name="ElementShortName">Triangle_List[0:17][5:0]</obj_property>
+      <obj_property name="ObjectShortName">Triangle_List[0:17][5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/Square_List" type="array">
+      <obj_property name="ElementShortName">Square_List[0:17][5:0]</obj_property>
+      <obj_property name="ObjectShortName">Square_List[0:17][5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/Pentagonal_List" type="array">
+      <obj_property name="ElementShortName">Pentagonal_List[0:17][5:0]</obj_property>
+      <obj_property name="ObjectShortName">Pentagonal_List[0:17][5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/Hexagonal_List" type="array">
+      <obj_property name="ElementShortName">Hexagonal_List[0:17][5:0]</obj_property>
+      <obj_property name="ObjectShortName">Hexagonal_List[0:17][5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/Heptagonal_List" type="array">
+      <obj_property name="ElementShortName">Heptagonal_List[0:17][5:0]</obj_property>
+      <obj_property name="ObjectShortName">Heptagonal_List[0:17][5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab_1_tb/Lists" type="array">
+      <obj_property name="ElementShortName">Lists[0:7][17:0][5:0]</obj_property>
+      <obj_property name="ObjectShortName">Lists[0:7][17:0][5:0]</obj_property>
+   </wvobject>
+</wave_config>

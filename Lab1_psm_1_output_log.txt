@@ -1,0 +1,325 @@
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/*/Labs/Lab 1/ECE448_Lab_1/ECE448_Lab_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Lab_1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/*/Labs/Lab 1/ECE448_Lab_1/ECE448_Lab_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Lab_1_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/*/Labs/Lab 1/ECE448_Lab_1/ECE448_Lab_1.srcs/sim_1/new/Lab_1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Lab_1_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/*/Labs/Lab 1/ECE448_Lab_1/ECE448_Lab_1.sim/sim_1/behav/xsim'
+"xelab -wto b8a172c2f2c24a8ea0579628e305bf01 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Lab_1_tb_behav xil_defaultlib.Lab_1_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto b8a172c2f2c24a8ea0579628e305bf01 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Lab_1_tb_behav xil_defaultlib.Lab_1_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_textio
+Compiling package ieee.numeric_std
+Compiling package std.env
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9)(1,1)(1,4)(1,7)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000010001000000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10101010110011001111...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture carry4_v of entity unisim.CARRY4 [carry4_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111000100010001000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11101010100000001000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01101001100110011001...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01111000100010001000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10000111011101110111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0111100010001000")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01101010100101010011...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="01101010")(0,7)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01101001100101101001...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10000111011110000111...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="0111")(0,3)\]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10001011100010001011...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0101101000100010")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01000100011110000111...]
+Compiling architecture fdse_v of entity unisim.FDSE [fdse_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1010010100101010")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10101010011001100000...]
+Compiling architecture structure of entity xil_defaultlib.DP [dp_default]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="00111000")(0,7)\]
+Compiling architecture fdce_v of entity unisim.FDCE [fdce_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11101111111111110010...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000010000000")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00100000000000000010...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="01000000")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0110001001000000")(0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10100001")(0,7)\]
+Compiling architecture structure of entity xil_defaultlib.CU [cu_default]
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9)(1,7)(1,4)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000000000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000000000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000010000000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000100001000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000011111...]
+Compiling architecture muxf7_v of entity unisim.MUXF7 [muxf7_default]
+Compiling architecture muxf8_v of entity unisim.MUXF8 [muxf8_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000000000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000100000000000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000000000...]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00101000001000001000...]
+Compiling architecture structure of entity xil_defaultlib.Lab1 [lab1_default]
+Compiling architecture behavioral of entity xil_defaultlib.lab_1_tb
+Built simulation snapshot Lab_1_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1797.129 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/*/Labs/Lab 1/ECE448_Lab_1/ECE448_Lab_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Lab_1_tb_behav -key {Behavioral:sim_1:Functional:Lab_1_tb} -tclbatch {Lab_1_tb.tcl} -view {{C:/*/Labs/Lab 1/ECE448_Lab_1/Lab_1_psm_1_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+open_wave_config {C:/*/Labs/Lab 1/ECE448_Lab_1/Lab_1_psm_1_behav.wcfg}
+source Lab_1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+COM - ERROR: a_tb:000101, b_tb:000, z_tb:0, expected z:1
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Lab_1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1797.129 ; gain = 0.000
+run all
+COM - ERROR: a_tb:001000, b_tb:001, z_tb:0, expected z:1
+COM - ERROR: a_tb:011000, b_tb:001, z_tb:0, expected z:1
+COM - ERROR: a_tb:101000, b_tb:001, z_tb:0, expected z:1
+COM - ERROR: a_tb:111000, b_tb:001, z_tb:0, expected z:1
+COM - ERROR: a_tb:001101, b_tb:010, z_tb:0, expected z:1
+COM - ERROR: a_tb:100111, b_tb:010, z_tb:0, expected z:1
+COM - ERROR: a_tb:000110, b_tb:011, z_tb:0, expected z:1
+COM - ERROR: a_tb:010000, b_tb:100, z_tb:0, expected z:1
+COM - ERROR: a_tb:010110, b_tb:101, z_tb:0, expected z:1
+COM - ERROR: a_tb:011001, b_tb:110, z_tb:1, expected z:0
+COM - ERROR: a_tb:011010, b_tb:111, z_tb:1, expected z:0
+SEQ - ERROR: a_tb:000000, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:000001, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:000010, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:000011, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:000100, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:000101, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:000110, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:000111, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:001000, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:001001, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:001010, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:001011, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:001100, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:001101, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:001110, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:001111, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:010000, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:010001, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:010010, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:010011, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:010100, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:010101, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:010110, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:010111, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:011000, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:011001, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:011010, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:011011, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:011100, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:011101, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:011110, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:011111, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:100000, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:100001, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:100010, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:100011, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:100100, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:100101, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:100110, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:100111, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:101000, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:101001, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:101010, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:101011, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:101100, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:101101, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:101110, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:101111, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:110000, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:110001, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:110010, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:110011, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:110100, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:110101, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:110110, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:110111, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:111000, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:111001, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:111010, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:111011, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:111100, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:111101, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:111110, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:111111, b_tb:000, y_tb:000000, expected y:000001
+SEQ - ERROR: a_tb:000010, b_tb:010, y_tb:001000, expected y:000100
+SEQ - ERROR: a_tb:000011, b_tb:010, y_tb:011011, expected y:001001
+SEQ - ERROR: a_tb:000100, b_tb:010, y_tb:000000, expected y:010000
+SEQ - ERROR: a_tb:000101, b_tb:010, y_tb:111101, expected y:011001
+SEQ - ERROR: a_tb:000110, b_tb:010, y_tb:011000, expected y:100100
+SEQ - ERROR: a_tb:000111, b_tb:010, y_tb:010111, expected y:110001
+SEQ - ERROR: a_tb:001001, b_tb:010, y_tb:011001, expected y:010001
+SEQ - ERROR: a_tb:001010, b_tb:010, y_tb:101000, expected y:100100
+SEQ - ERROR: a_tb:001011, b_tb:010, y_tb:110011, expected y:111001
+SEQ - ERROR: a_tb:001100, b_tb:010, y_tb:000000, expected y:010000
+SEQ - ERROR: a_tb:001101, b_tb:010, y_tb:010101, expected y:101001
+SEQ - ERROR: a_tb:001110, b_tb:010, y_tb:111000, expected y:000100
+SEQ - ERROR: a_tb:001111, b_tb:010, y_tb:101111, expected y:100001
+SEQ - ERROR: a_tb:010001, b_tb:010, y_tb:110001, expected y:100001
+SEQ - ERROR: a_tb:010010, b_tb:010, y_tb:001000, expected y:000100
+SEQ - ERROR: a_tb:010011, b_tb:010, y_tb:001011, expected y:101001
+SEQ - ERROR: a_tb:010100, b_tb:010, y_tb:000000, expected y:010000
+SEQ - ERROR: a_tb:010101, b_tb:010, y_tb:101101, expected y:111001
+SEQ - ERROR: a_tb:010110, b_tb:010, y_tb:011000, expected y:100100
+SEQ - ERROR: a_tb:010111, b_tb:010, y_tb:000111, expected y:010001
+SEQ - ERROR: a_tb:011001, b_tb:010, y_tb:001001, expected y:110001
+SEQ - ERROR: a_tb:011010, b_tb:010, y_tb:101000, expected y:100100
+SEQ - ERROR: a_tb:011011, b_tb:010, y_tb:100011, expected y:011001
+SEQ - ERROR: a_tb:011100, b_tb:010, y_tb:000000, expected y:010000
+SEQ - ERROR: a_tb:011101, b_tb:010, y_tb:000101, expected y:001001
+SEQ - ERROR: a_tb:011110, b_tb:010, y_tb:111000, expected y:000100
+SEQ - ERROR: a_tb:011111, b_tb:010, y_tb:011111, expected y:000001
+SEQ - ERROR: a_tb:100001, b_tb:010, y_tb:100001, expected y:000001
+SEQ - ERROR: a_tb:100010, b_tb:010, y_tb:001000, expected y:000100
+SEQ - ERROR: a_tb:100011, b_tb:010, y_tb:111011, expected y:001001
+SEQ - ERROR: a_tb:100100, b_tb:010, y_tb:000000, expected y:010000
+SEQ - ERROR: a_tb:100101, b_tb:010, y_tb:011101, expected y:011001
+SEQ - ERROR: a_tb:100110, b_tb:010, y_tb:011000, expected y:100100
+SEQ - ERROR: a_tb:100111, b_tb:010, y_tb:110111, expected y:110001
+SEQ - ERROR: a_tb:101001, b_tb:010, y_tb:111001, expected y:010001
+SEQ - ERROR: a_tb:101010, b_tb:010, y_tb:101000, expected y:100100
+SEQ - ERROR: a_tb:101011, b_tb:010, y_tb:010011, expected y:111001
+SEQ - ERROR: a_tb:101100, b_tb:010, y_tb:000000, expected y:010000
+SEQ - ERROR: a_tb:101101, b_tb:010, y_tb:110101, expected y:101001
+SEQ - ERROR: a_tb:101110, b_tb:010, y_tb:111000, expected y:000100
+SEQ - ERROR: a_tb:101111, b_tb:010, y_tb:001111, expected y:100001
+SEQ - ERROR: a_tb:110001, b_tb:010, y_tb:010001, expected y:100001
+SEQ - ERROR: a_tb:110010, b_tb:010, y_tb:001000, expected y:000100
+SEQ - ERROR: a_tb:110011, b_tb:010, y_tb:101011, expected y:101001
+SEQ - ERROR: a_tb:110100, b_tb:010, y_tb:000000, expected y:010000
+SEQ - ERROR: a_tb:110101, b_tb:010, y_tb:001101, expected y:111001
+SEQ - ERROR: a_tb:110110, b_tb:010, y_tb:011000, expected y:100100
+SEQ - ERROR: a_tb:110111, b_tb:010, y_tb:100111, expected y:010001
+SEQ - ERROR: a_tb:111001, b_tb:010, y_tb:101001, expected y:110001
+SEQ - ERROR: a_tb:111010, b_tb:010, y_tb:101000, expected y:100100
+SEQ - ERROR: a_tb:111011, b_tb:010, y_tb:000011, expected y:011001
+SEQ - ERROR: a_tb:111100, b_tb:010, y_tb:000000, expected y:010000
+SEQ - ERROR: a_tb:111101, b_tb:010, y_tb:100101, expected y:001001
+SEQ - ERROR: a_tb:111110, b_tb:010, y_tb:111000, expected y:000100
+SEQ - ERROR: a_tb:111111, b_tb:010, y_tb:111111, expected y:000001
+SEQ - ERROR: a_tb:000010, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:000011, b_tb:100, y_tb:110011, expected y:010001
+SEQ - ERROR: a_tb:000101, b_tb:100, y_tb:110101, expected y:110001
+SEQ - ERROR: a_tb:000110, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:000111, b_tb:100, y_tb:100111, expected y:100001
+SEQ - ERROR: a_tb:001001, b_tb:100, y_tb:101001, expected y:100001
+SEQ - ERROR: a_tb:001010, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:001011, b_tb:100, y_tb:011011, expected y:110001
+SEQ - ERROR: a_tb:001101, b_tb:100, y_tb:011101, expected y:010001
+SEQ - ERROR: a_tb:001110, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:001111, b_tb:100, y_tb:001111, expected y:000001
+SEQ - ERROR: a_tb:010001, b_tb:100, y_tb:010001, expected y:000001
+SEQ - ERROR: a_tb:010010, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:010011, b_tb:100, y_tb:000011, expected y:010001
+SEQ - ERROR: a_tb:010101, b_tb:100, y_tb:000101, expected y:110001
+SEQ - ERROR: a_tb:010110, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:010111, b_tb:100, y_tb:110111, expected y:100001
+SEQ - ERROR: a_tb:011001, b_tb:100, y_tb:111001, expected y:100001
+SEQ - ERROR: a_tb:011010, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:011011, b_tb:100, y_tb:101011, expected y:110001
+SEQ - ERROR: a_tb:011101, b_tb:100, y_tb:101101, expected y:010001
+SEQ - ERROR: a_tb:011110, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:011111, b_tb:100, y_tb:011111, expected y:000001
+SEQ - ERROR: a_tb:100001, b_tb:100, y_tb:100001, expected y:000001
+SEQ - ERROR: a_tb:100010, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:100011, b_tb:100, y_tb:010011, expected y:010001
+SEQ - ERROR: a_tb:100101, b_tb:100, y_tb:010101, expected y:110001
+SEQ - ERROR: a_tb:100110, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:100111, b_tb:100, y_tb:000111, expected y:100001
+SEQ - ERROR: a_tb:101001, b_tb:100, y_tb:001001, expected y:100001
+SEQ - ERROR: a_tb:101010, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:101011, b_tb:100, y_tb:111011, expected y:110001
+SEQ - ERROR: a_tb:101101, b_tb:100, y_tb:111101, expected y:010001
+SEQ - ERROR: a_tb:101110, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:101111, b_tb:100, y_tb:101111, expected y:000001
+SEQ - ERROR: a_tb:110001, b_tb:100, y_tb:110001, expected y:000001
+SEQ - ERROR: a_tb:110010, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:110011, b_tb:100, y_tb:100011, expected y:010001
+SEQ - ERROR: a_tb:110101, b_tb:100, y_tb:100101, expected y:110001
+SEQ - ERROR: a_tb:110110, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:110111, b_tb:100, y_tb:010111, expected y:100001
+SEQ - ERROR: a_tb:111001, b_tb:100, y_tb:011001, expected y:100001
+SEQ - ERROR: a_tb:111010, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:111011, b_tb:100, y_tb:001011, expected y:110001
+SEQ - ERROR: a_tb:111101, b_tb:100, y_tb:001101, expected y:010001
+SEQ - ERROR: a_tb:111110, b_tb:100, y_tb:100000, expected y:010000
+SEQ - ERROR: a_tb:111111, b_tb:100, y_tb:111111, expected y:000001
+SEQ - ERROR: a_tb:000011, b_tb:110, y_tb:001011, expected y:011001
+SEQ - ERROR: a_tb:000101, b_tb:110, y_tb:101101, expected y:001001
+SEQ - ERROR: a_tb:000111, b_tb:110, y_tb:110111, expected y:010001
+SEQ - ERROR: a_tb:001001, b_tb:110, y_tb:111001, expected y:110001
+SEQ - ERROR: a_tb:001011, b_tb:110, y_tb:000011, expected y:101001
+SEQ - ERROR: a_tb:001101, b_tb:110, y_tb:100101, expected y:111001
+SEQ - ERROR: a_tb:001111, b_tb:110, y_tb:101111, expected y:100001
+SEQ - ERROR: a_tb:010001, b_tb:110, y_tb:110001, expected y:100001
+SEQ - ERROR: a_tb:010011, b_tb:110, y_tb:111011, expected y:111001
+SEQ - ERROR: a_tb:010101, b_tb:110, y_tb:011101, expected y:101001
+SEQ - ERROR: a_tb:010111, b_tb:110, y_tb:100111, expected y:110001
+SEQ - ERROR: a_tb:011001, b_tb:110, y_tb:101001, expected y:010001
+SEQ - ERROR: a_tb:011011, b_tb:110, y_tb:110011, expected y:001001
+SEQ - ERROR: a_tb:011101, b_tb:110, y_tb:010101, expected y:011001
+SEQ - ERROR: a_tb:011111, b_tb:110, y_tb:011111, expected y:000001
+SEQ - ERROR: a_tb:100001, b_tb:110, y_tb:100001, expected y:000001
+SEQ - ERROR: a_tb:100011, b_tb:110, y_tb:101011, expected y:011001
+SEQ - ERROR: a_tb:100101, b_tb:110, y_tb:001101, expected y:001001
+SEQ - ERROR: a_tb:100111, b_tb:110, y_tb:010111, expected y:010001
+SEQ - ERROR: a_tb:101001, b_tb:110, y_tb:011001, expected y:110001
+SEQ - ERROR: a_tb:101011, b_tb:110, y_tb:100011, expected y:101001
+SEQ - ERROR: a_tb:101101, b_tb:110, y_tb:000101, expected y:111001
+SEQ - ERROR: a_tb:101111, b_tb:110, y_tb:001111, expected y:100001
+SEQ - ERROR: a_tb:110001, b_tb:110, y_tb:010001, expected y:100001
+SEQ - ERROR: a_tb:110011, b_tb:110, y_tb:011011, expected y:111001
+SEQ - ERROR: a_tb:110101, b_tb:110, y_tb:111101, expected y:101001
+SEQ - ERROR: a_tb:110111, b_tb:110, y_tb:000111, expected y:110001
+SEQ - ERROR: a_tb:111001, b_tb:110, y_tb:001001, expected y:010001
+SEQ - ERROR: a_tb:111011, b_tb:110, y_tb:010011, expected y:001001
+SEQ - ERROR: a_tb:111101, b_tb:110, y_tb:110101, expected y:011001
+SEQ - ERROR: a_tb:111111, b_tb:110, y_tb:111111, expected y:000001
+Total Error Count: 209
+Note: Calling 'finish'
+Time: 123902240 ps  Iteration: 0  Process: /Lab_1_tb/stim_ALU  File: C:/*/Labs/Lab 1/ECE448_Lab_1/ECE448_Lab_1.srcs/sim_1/new/Lab_1_tb.vhd
+$finish called at time : 123902240 ps : File "C:/*/Labs/Lab 1/ECE448_Lab_1/ECE448_Lab_1.srcs/sim_1/new/Lab_1_tb.vhd" Line 227

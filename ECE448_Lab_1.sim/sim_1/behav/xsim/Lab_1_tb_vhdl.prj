@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ECE448_Lab_1.srcs/sources_1/imports/ECE448_Lab_1/Lab1_psm_2.vhd" \
+"../../../../ECE448_Lab_1.srcs/sim_1/new/Lab_1_tb.vhd" \
+
+# Do not sort compile order
+nosort
